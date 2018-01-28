@@ -1,0 +1,23 @@
+[oob-switch]
+oob-mgmt-switch ansible_host=192.168.0.1
+
+[exit]
+exit02 ansible_host=192.168.0.42
+exit01 ansible_host=192.168.0.41
+
+[leaf]
+leaf04 ansible_host=192.168.0.14
+leaf02 ansible_host=192.168.0.12
+leaf03 ansible_host=192.168.0.13
+leaf01 ansible_host=192.168.0.11
+
+[spine]
+spine02 ansible_host=192.168.0.22
+spine01 ansible_host=192.168.0.21
+
+[host]
+edge01 ansible_host=192.168.0.51
+server01 ansible_host=192.168.0.31
+server03 ansible_host=192.168.0.33
+server02 ansible_host=192.168.0.32
+server04 ansible_host=192.168.0.34

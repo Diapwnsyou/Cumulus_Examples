@@ -1,0 +1,7 @@
+---
+- name: Build Cumulus 
+  hosts: leaf
+  gather_facts: False
+  
+  tasks:
+    - debug: var=hostvars[inventory_hostname]
